@@ -61,7 +61,7 @@ def get_location():
         return HARDCODED_ADDRESS, "Map link unavailable"
 
 pygame.mixer.init()
-ALARM_FILE = r"E:\\music\\siren.wav"
+ALARM_FILE = r"$$$$$"
 pygame.mixer.music.load(ALARM_FILE)
 
 mp_pose = mp.solutions.pose
